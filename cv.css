@@ -1,8 +1,7 @@
 @media screen and (max-width: 768px) {
     body {
         width: 95%;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding: 1rem 0.25rem 1rem 0;
     }
 
     .contacts {
@@ -15,6 +14,23 @@
 
     .bullet {
         display: none;
+    }
+
+    .col-sm-9 {
+        padding-left: 0.75rem !important;
+    }
+
+    .title {
+        font-size: 2.4rem;
+    }
+
+    .title-job {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        height: 3.125rem;
+        width: 3.125rem;
     }
 }
 
@@ -44,17 +60,29 @@
         margin-top: -6.063rem;
         margin-right: -2.625rem;
     }
+
+    .title {
+        font-size: 3.6rem;
+    }
+
+    .title-job {
+        font-size: 2.4rem;
+    }
+
+    .icon {
+        height: 6.25rem;
+        width: 6.25rem;
+    }
+
+    .col-sm-9 {
+        padding-left: 2.25rem !important;
+    }
 }
 
 body {
     background: #292930 !important;
     font-family: Calibri, serif !important;
     color: white !important;
-}
-
-.icon {
-    height: 6.25rem;
-    width: 6.25rem;
 }
 
 img {
@@ -97,14 +125,6 @@ p {
     margin-bottom: 0.115rem;
 }
 
-.title {
-    font-size: 3.6rem;
-}
-
-.title-job {
-    font-size: 2.4rem;
-}
-
 .no-padding {
     padding: 0 !important;
 }
@@ -143,10 +163,6 @@ p {
 
 .project {
     margin-bottom: 3.125rem;
-}
-
-.col-sm-9 {
-    padding-left: 2.25rem !important;
 }
 
 a[href^="tel:"], a[href^="mailto:"], .contact {
