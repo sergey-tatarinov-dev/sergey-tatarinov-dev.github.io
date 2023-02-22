@@ -53,6 +53,7 @@
             <div class="row align-items-start">
                 <div class="col-sm-3">
                     <p class="text-info bold no-margin-bottom">ОПЫТ РАБОТЫ</p>
+                    <br>
                     <p class="two-lines-margin">4+ лет</p><br>
                     <p class="text-info bold">СПЕЦИАЛИЗАЦИИ</p>
                     <div class="row">
@@ -114,7 +115,6 @@
                 </div>
                 <div class="col-sm-3 offset-sm-1">
                     <p class="text-info bold">ПРОФЕССИОНАЛЬНЫЕ УМЕНИЯ</p>
-                    <p class="no-margin-bottom">CORE SKILLS</p>
                     <p class="light">Java, Spring Framework, Hibernate, Vaadin,<br>
                         Liquibase, PostgreSQL, Oracle,<br>
                         Apache Maven, Gradle,<br>
@@ -137,105 +137,112 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-sm-1">
-                    <div class="row" style="height:103px">
-                        <button type="button" class="position-relative top-100 start-100 btn btn-sm btn-info rounded-pill button-point" style="width: 1rem; height: 1rem;"></button>
+                <div class="col-sm-5">
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-9">
+                            <p class="text-info bold">ПОСЛЕДНИЕ РАЗРАБОТАННЫЕ ПРОЕКТЫ</p>
+                            <br>
+                            <p class="text-info bold">EPAM SYSTEMS/TECHNO DIASOFT</p>
+                        </div>
                     </div>
-                    <div class="row bordered">
-                        <p class="bold text-end">ЯНВАРЬ 2022 -<br>
-                            ФЕВРАЛЬ 2023</p>
+                    <div class="row company">
+                        <div class="col-sm-3 timeline">
+                            <p>ЯНВАРЬ 2022 — <br>
+                                ЯНВАРЬ 2023</p>
+                            <p class="bullet">&#8226;</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="bold">МОДУЛЬ ПРОВЕРОК ПЛАТЕЖЕЙ</p>
+                            <p class="italic">Приложение для обработки и проверки документов.<br>
+                                REST-приложение обработки платежа с применением<br> проверок полей платежа.</p>
+                            <p class="text-info no-margin-bottom">Разработал:</p>
+                            <p>Систему пакетной обработки транзакций в БД вместо <br>
+                                обработки транзакций по отдельности. Maven-плагин для<br>
+                                анализа правильности проверок. Кэш результатов<br>
+                                обращений к внешним сервисам.</p>
+                            <p class="text-info no-margin-bottom">Дополнительно:</p>
+                            <p>Разбил огромный java-класс, который содержал проверки<br>
+                                c 5к+ строк кода на более мелкие посредством<br>
+                                выделения их в spring-бины. Повысил покрытие кода<br>
+                                проекта до 80%.
+                            </p>
+                            <p class="text-info no-margin-bottom">Стек технологий:</p>
+                            <p class="no-margin-bottom">Java, Dataspace, Spring Boot, Apache Ignite, Mockito, Git,<br>
+                                Maven, IntelliJ Idea, OpenShift, k8s, Jenkins</p>
+                        </div>
                     </div>
-                    <div class="row bordered" style="height:418px"></div>
-                    <div class="row" style="height:100px">
-                        <button type="button" class="position-relative top-100 start-100 btn btn-sm btn-info rounded-pill button-point" style="width: 1rem; height: 1rem;"></button>
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-9">
+                            <p class="text-info bold">BALTIC TECHNOLOGY COMPANY</p>
+                        </div>
                     </div>
-                    <div class="row bordered">
-                        <p class="bold text-end">НОЯБРЬ 2020 -<br>
-                        ДЕКАБРЬ 2021</p>
+                    <div class="row">
+                        <div class="col-sm-3 timeline">
+                            <p>НОЯБРЬ 2020 —<br>
+                                ДЕКАБРЬ 2021</p>
+                            <p class="bullet">&#8226;</p>
+                        </div>
+                        <div class="col-sm-9 project">
+                            <p class="bold">СИСТЕМА ОБРАБОТКИ ЗАЯВЛЕНИЙ В <br>
+                                СТРАХОВУЮ ОРГАНИЗАЦИЮ</p>
+                            <p class="italic">REST-приложение регистрации, обработки и валидации<br>
+                                заявлений граждан, поступающих в страховую<br>
+                                организацию.</p>
+                            <p class="text-info no-margin-bottom">Разработал:</p>
+                            <p>Механизм универсального поиска необходимых данных. <br>
+                                API для генерации документов на основе печатных форм<br>
+                                с помощью технологии Jasper.</p>
+                            <p class="text-info no-margin-bottom">Стек технологий:</p>
+                            <p class="no-margin-bottom">Java, Dataspace, Spring Cloud, Liquibase, Apache Kafka,<br>
+                                PostgreSQL, Git, Maven, IntelliJ IDEA, OpenShift, k8s, Jenkins</p>
+                        </div>
                     </div>
-                    <div class="row bordered" style="height:340px">
-                        <button type="button" class="position-relative top-100 start-100 btn btn-sm btn-info rounded-pill button-point" style="width: 1rem; height: 1rem;"></button>
+                    <div class="row">
+                        <div class="col-sm-3 timeline">
+                            <p>МАРТ 2020 —<br>
+                                НОЯБРЬ 2020</p>
+                            <p class="bullet">&#8226;</p>
+                        </div>
+                        <div class="col-sm-9 project">
+                            <p class="bold">УТИЛИТА ТЕСТИРОВАНИЯ</p>
+                            <p class="italic">Веб-ориентированная система для проверки и<br>
+                                генерации тестовых кейсов, создаваемых на основе<br>
+                                UI форм.</p>
+                            <p class="text-info no-margin-bottom">Разработал:</p>
+                            <p>Механизм генерации нужного количества тестовых <br>
+                                кейсов для формы, количество которых зависело от<br>
+                                ключевых контролов. Веб-интерфейс для генерации,<br>
+                                запуска, ручного создания, удаления и просмотра логов<br>
+                                тест-кейсов.</p>
+                            <p class="text-info no-margin-bottom">Стек технологий:</p>
+                            <p class="no-margin-bottom">Java, Spring Data, Angular 9, Spring Cloud, Liquibase,<br>
+                                PostgreSQL, Git, Maven, IntelliJ Idea</p>
+                        </div>
                     </div>
-                    <div class="row bordered">
-                        <p class="bold text-end">МАРТ 2020 -<br>
-                            НОЯБРЬ 2020</p>
+                    <div class="row">
+                        <div class="col-sm-3 timeline">
+                            <p>ЯНВАРЬ 2020 —<br>
+                                МАРТ 2020</p>
+                            <p class="bullet">&#8226;</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="bold">ПЕЧАТЬ СЧЕТОВ</p>
+                            <p class="italic">Веб-ориентированная система настройки печати <br>
+                                счетов коммунальных платежей, для управления<br>
+                                данными справочников (CRUD), основанная на <br>
+                                технологии Vaadin.</p>
+                            <p class="text-info no-margin-bottom">Разработал:</p>
+                            <p>Универсальную систему отображения форм и <br>
+                                окон и использования компонентов в системе. <br>
+                                Разрабатывал бизнес-логику и логику<br>
+                                взаимодействия компонентов для приложения.</p>
+                            <p class="text-info no-margin-bottom">Стек технологий:</p>
+                            <p class="no-margin-bottom">Java, Spring Core, Vaadin, Oracle, PostgreSQL, Git, Maven,<br>
+                                IntelliJ IDEA</p>
+                        </div>
                     </div>
-                    <div class="row bordered" style="height:363px">
-                        <button type="button" class="position-relative top-100 start-100 btn btn-sm btn-info rounded-pill button-point" style="width: 1rem; height: 1rem;"></button>
-                    </div>
-                    <div class="row bordered">
-                        <p class="bold text-end">ЯНВАРЬ 2020 -<br>
-                            МАРТ 2020</p>
-                    </div>
-                    <div class="row bordered" style="height:300px"></div>
-                </div>
-                <div class="col-sm-4 last-projects">
-                    <p class="text-info bold">ПОСЛЕДНИЕ РАЗРАБОТАННЫЕ ПРОЕКТЫ</p>
-                    <br>
-                    <p class="text-info bold">EPAM SYSTEMS/TECHNO DIASOFT</p>
-                    <p class="bold">МОДУЛЬ ПРОВЕРОК ПЛАТЕЖЕЙ</p>
-                    <p class="italic">Приложение для обработки и проверки документов.<br>
-                        REST-приложение обработки платежа с применением<br> проверок полей платежа.</p>
-                    <p class="text-info no-margin-bottom">Разработал:</p>
-                    <p>Систему пакетной обработки транзакций в БД вместо <br>
-                        обработки транзакций по отдельности. Maven-плагин для<br>
-                        анализа правильности проверок. Кэш результатов<br>
-                        обращений к внешним сервисам.</p>
-                    <p class="text-info no-margin-bottom">Дополнительно:</p>
-                    <p>Разбил огромный java-класс, который содержал проверки<br>
-                        c 5к+ строк кода на более мелкие посредством<br>
-                        выделения их в spring-бины. Повысил покрытие кода<br>
-                        проекта до 80%.
-                    </p>
-                    <p class="text-info no-margin-bottom">Стек технологий:</p>
-                    <p>Java, Dataspace, Spring Boot, Apache Ignite, Mockito, Git,<br>
-                        Maven, IntelliJ Idea, OpenShift, k8s, Jenkins</p>
-                    <br>
-                    <br>
-                    <p class="text-info bold">BALTIC TECHNOLOGY COMPANY</p>
-                    <p class="bold">СИСТЕМА ОБРАБОТКИ ЗАЯВЛЕНИЙ В <br>
-                        СТРАХОВУЮ ОРГАНИЗАЦИЮ</p>
-                    <p class="italic">REST-приложение регистрации, обработки и валидации<br>
-                        заявлений граждан, поступающих в страховую<br>
-                        организацию.</p>
-                    <p class="text-info no-margin-bottom">Разработал:</p>
-                    <p>Механизм универсального поиска необходимых данных. <br>
-                        API для генерации документов на основе печатных форм<br>
-                        с помощью технологии Jasper.</p>
-                    <p class="text-info no-margin-bottom">Стек технологий:</p>
-                    <p>Java, Dataspace, Spring Cloud, Liquibase, Apache Kafka,<br>
-                        PostgreSQL, Git, Maven, IntelliJ IDEA, OpenShift, k8s, Jenkins</p>
-                    <br>
-                    <br>
-                    <p class="bold">УТИЛИТА ТЕСТИРОВАНИЯ</p>
-                    <p class="italic">Веб-ориентированная система для проверки и<br>
-                        генерации тестовых кейсов, создаваемых на основе<br>
-                        UI форм.</p>
-                    <p class="text-info no-margin-bottom">Разработал:</p>
-                    <p>Механизм генерации нужного количества тестовых <br>
-                        кейсов для формы, количество которых зависело от<br>
-                        ключевых контролов. Веб-интерфейс для генерации,<br>
-                        запуска, ручного создания, удаления и просмотра логов<br>
-                        тест-кейсов.</p>
-                    <p class="text-info no-margin-bottom">Стек технологий:</p>
-                    <p>Java, Spring Data, Angular 9, Spring Cloud, Liquibase,<br>
-                        PostgreSQL, Git, Maven, IntelliJ Idea</p>
-                    <br>
-                    <br>
-                    <p class="bold">ПЕЧАТЬ СЧЕТОВ</p>
-                    <p class="italic">Веб-ориентированная система настройки печати <br>
-                        счетов коммунальных платежей, для управления<br>
-                        данными справочников (CRUD), основанная на <br>
-                        технологии Vaadin.</p>
-                    <p class="text-info no-margin-bottom">Разработал:</p>
-                    <p>Универсальную систему отображения форм и <br>
-                        окон и использования компонентов в системе. <br>
-                        Разрабатывал бизнес-логику и логику<br>
-                        взаимодействия компонентов для приложения.</p>
-                    <p class="text-info no-margin-bottom">Стек технологий:</p>
-                    <p>Java, Spring Core, Vaadin, Oracle, PostgreSQL, Git, Maven,<br>
-                        IntelliJ IDEA</p>
-
                 </div>
             </div>
         </div>

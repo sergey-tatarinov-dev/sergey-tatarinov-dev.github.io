@@ -5,10 +5,19 @@
         color: white !important;
         width: 95%;
         padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .contacts {
         text-align: left !important;
+    }
+
+    .icon-negative-margin-left {
+        margin-left: 0;
+    }
+
+    .bullet {
+        display: none;
     }
 }
 
@@ -30,15 +39,23 @@
     .contacts {
         text-align: right !important;
     }
+
+    .icon-negative-margin-left {
+        margin-left: -1.25rem;
+    }
+
+    .bullet {
+        display: block;
+        color: #5cc9f6;
+        font-size: 4.2rem;
+        margin-top: -97px;
+        margin-right: -42px;
+    }
 }
 
 .icon {
     height: 6.25rem;
     width: 6.25rem;
-}
-
-.icon-negative-margin-left {
-    margin-left: -1.25rem;
 }
 
 img {
@@ -108,9 +125,27 @@ p {
 
 .button-point {
     margin-left: -10px;
-    margin-top: 4px !important;
+    margin-top: 0.25rem !important;
 }
 
 .button-point:hover {
     cursor: default !important;
+}
+
+.timeline {
+    text-align: right !important;
+    border-right: white 1px solid;
+    padding-right: 1.5rem !important;
+}
+
+.company {
+    margin-bottom: 3.125rem;
+}
+
+.project {
+    margin-bottom: 3.125rem;
+}
+
+.col-sm-9 {
+    padding-left: 2.25rem !important;
 }
