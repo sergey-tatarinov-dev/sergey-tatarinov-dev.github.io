@@ -1,8 +1,5 @@
 @media screen and (max-width: 768px) {
     body {
-        background: #292930 !important;
-        font-family: Calibri, serif !important;
-        color: white !important;
         width: 95%;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -47,6 +44,12 @@
         margin-top: -6.063rem;
         margin-right: -2.625rem;
     }
+}
+
+body {
+    background: #292930 !important;
+    font-family: Calibri, serif !important;
+    color: white !important;
 }
 
 .icon {
