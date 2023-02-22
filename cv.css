@@ -145,3 +145,7 @@ p {
 .col-sm-9 {
     padding-left: 2.25rem !important;
 }
+
+a[href^="tel:"], a[href^="mailto:"], .contact {
+    text-decoration: none;
+}
