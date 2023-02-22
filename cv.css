@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 768px) {
     body {
         background: #292930 !important;
         font-family: Calibri, serif !important;
