@@ -1,14 +1,35 @@
-div {
-    /*border: red 0.063rem solid;*/
+@media screen and (min-width: 400px) {
+    body {
+        background: #292930 !important;
+        font-family: Calibri, serif !important;
+        color: white !important;
+        width: 95%;
+        padding-top: 1rem;
+    }
+
+    .contacts {
+        text-align: left !important;
+    }
 }
 
-body {
-    background: #292930 !important;
-    font-family: Calibri, serif !important;
-    color: white !important;
-    width: 95%;
-    padding-top: 5rem;
-    padding-left: 11rem;
+@media screen and (min-width: 768px) {
+
+    div {
+        /*border: red 0.063rem solid;*/
+    }
+
+    body {
+        background: #292930 !important;
+        font-family: Calibri, serif !important;
+        color: white !important;
+        width: 95%;
+        padding-top: 5rem;
+        padding-left: 11rem;
+    }
+
+    .contacts {
+        text-align: right !important;
+    }
 }
 
 .icon {
