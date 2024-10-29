@@ -8,23 +8,38 @@
         text-align: left !important;
     }
 
+    .icon-negative-margin-left {
+        margin-left: 0;
+    }
+
+    .bullet {
+        display: none;
+    }
+
     .col-sm-9 {
         padding-left: 0.75rem !important;
     }
 
-    .title-name {
+    .title {
         font-size: 2.4rem;
     }
 
     .title-job {
         font-size: 1.8rem;
     }
+
+    .icon {
+        height: 3.125rem;
+        width: 3.125rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
     body {
+        background: #292930 !important;
         font-family: Calibri, serif !important;
+        color: white !important;
         width: 95%;
         padding-top: 5rem;
         padding-left: 11rem;
@@ -34,14 +49,29 @@
         text-align: right !important;
     }
 
-    .title-name {
-        line-height: 3rem;
+    .icon-negative-margin-left {
+        margin-left: -1.25rem;
+    }
+
+    .bullet {
+        display: block;
+        color: #5cc9f6;
+        font-size: 4.2rem;
+        margin-top: -6.063rem;
+        margin-right: -2.625rem;
+    }
+
+    .title {
         font-size: 3.6rem;
     }
 
     .title-job {
         font-size: 2.4rem;
-        margin-bottom: 0;
+    }
+
+    .icon {
+        height: 6.25rem;
+        width: 6.25rem;
     }
 
     .col-sm-9 {
@@ -50,7 +80,9 @@
 }
 
 body {
+    background: #292930 !important;
     font-family: Calibri, serif !important;
+    color: white !important;
 }
 
 img {
@@ -58,41 +90,23 @@ img {
     height: 100%;
 }
 
-.list {
+ul {
     list-style: none;
-    padding-left: 0;
-    margin-bottom: 1rem;
-}
-
-.skills-list-title {
-    margin-top: 0 !important;
-    margin-bottom: 0.25rem !important;
+    padding-left: 1.25rem;
 }
 
 ul li::before {
     content: "\2022";
-    color: #0B5394;
+    color: #5cc9f6;
     font-weight: bold;
     display: inline-block;
     width: 1em;
-    padding-left: 0;
+    margin-left: -1em;
 }
 
 p {
     font-size: 1.2rem;
     line-height: 1.25;
-}
-
-a:link, .title-name, .main-color, a {
-    color: #0B5394 !important;
-}
-
-.bordered {
-    /*border: #0a53be 1px solid;*/
-}
-
-.title {
-    padding-left: 0.25rem !important;
 }
 
 .bold {
@@ -111,46 +125,44 @@ a:link, .title-name, .main-color, a {
     margin-bottom: 0.115rem;
 }
 
+.no-padding {
+    padding: 0 !important;
+}
+
+.bordered {
+    border-right: white 0.188rem solid;
+}
+
 .photo {
     padding: 0 !important;
-    margin: 0 0 0 3rem;
+    margin: 0 1.25rem 0 0.625rem;
 }
 
-.career-details {
-    border-top: lightgray 1px solid;
-    margin-top: 0.5rem !important;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left:2.5rem;
-}
-
-.career-detail {
-    margin-top:2rem !important;
-}
-
-.col-sm-3 {
-    /*padding-right: 0 !important;*/
-    background: #E9F5FF;
-}
-
-.first-description {
-    padding-top: 2rem;
-    padding-right:1.5rem;
-}
-
-.skills-title {
-    padding-top: 2rem;
-}
-
-.description {
-    border-top: lightgray 1px solid;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-right: 2rem;
-}
-
-.container-right{
+.last-projects {
     padding-left: 2rem !important;
+}
+
+.button-point {
+    margin-left: -0.625rem;
+    margin-top: 0.25rem !important;
+}
+
+.button-point:hover {
+    cursor: default !important;
+}
+
+.timeline {
+    text-align: right !important;
+    border-right: white 0.063rem solid;
+    padding-right: 1.5rem !important;
+}
+
+.company {
+    margin-bottom: 3.125rem;
+}
+
+.project {
+    margin-bottom: 3.125rem;
 }
 
 a[href^="tel:"], a[href^="mailto:"], .contact {
