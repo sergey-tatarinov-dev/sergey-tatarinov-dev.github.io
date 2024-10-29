@@ -1,15 +1,8 @@
+/*Mobile only*/
 @media screen and (max-width: 768px) {
     body {
-        width: 95%;
+        width: 100%;
         padding: 1rem 0.25rem 1rem 0;
-    }
-
-    .contacts {
-        text-align: left !important;
-    }
-
-    .col-sm-9 {
-        padding-left: 0.75rem !important;
     }
 
     .title-name {
@@ -19,19 +12,24 @@
     .title-job {
         font-size: 1.8rem;
     }
+
+    .photo {
+        margin-left: 25% !important;
+        width: 50% !important;
+        height: 50% !important;
+    }
+
+    .container-right {
+        margin-right: 10rem !important;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
     body {
-        font-family: Calibri, serif !important;
         width: 95%;
         padding-top: 5rem;
         padding-left: 11rem;
-    }
-
-    .contacts {
-        text-align: right !important;
     }
 
     .title-name {
@@ -43,11 +41,9 @@
         font-size: 2.4rem;
         margin-bottom: 0;
     }
-
-    .col-sm-9 {
-        padding-left: 2.25rem !important;
-    }
 }
+
+/*Main part*/
 
 body {
     font-family: Calibri, serif !important;
@@ -56,6 +52,38 @@ body {
 img {
     width: 100%;
     height: 100%;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.25;
+}
+
+li {
+    font-size: 1.15rem !important;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #0B5394;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    padding-left: 0;
+    font-size: 1.2rem;
+    line-height: 1.25;
+}
+
+a:link, .title-name, .main-color, a {
+    color: #0B5394 !important;
+}
+
+a[href^="tel:"], a[href^="mailto:"], .contact {
+    text-decoration: none;
+}
+
+.col-sm-9 {
+    padding-left: 2.25rem !important;
 }
 
 .list {
@@ -69,26 +97,8 @@ img {
     margin-bottom: 0.25rem !important;
 }
 
-ul li::before {
-    content: "\2022";
-    color: #0B5394;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    padding-left: 0;
-}
-
-p {
-    font-size: 1.2rem;
-    line-height: 1.25;
-}
-
-a:link, .title-name, .main-color, a {
-    color: #0B5394 !important;
-}
-
 .bordered {
-    /*border: #0a53be 1px solid;*/
+    border: #0a53be 1px solid;
 }
 
 .title {
@@ -121,11 +131,11 @@ a:link, .title-name, .main-color, a {
     margin-top: 0.5rem !important;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-left:2.5rem;
+    padding-left: 2.5rem;
 }
 
 .career-detail {
-    margin-top:2rem !important;
+    margin-top: 2rem !important;
 }
 
 .col-sm-3 {
@@ -135,7 +145,7 @@ a:link, .title-name, .main-color, a {
 
 .first-description {
     padding-top: 2rem;
-    padding-right:1.5rem;
+    padding-right: 1.5rem;
 }
 
 .skills-title {
@@ -149,10 +159,14 @@ a:link, .title-name, .main-color, a {
     margin-right: 2rem;
 }
 
-.container-right{
+.container-right {
     padding-left: 2rem !important;
 }
 
-a[href^="tel:"], a[href^="mailto:"], .contact {
-    text-decoration: none;
+.contact {
+    margin-left: 0.25rem;
+}
+
+.timeline {
+    text-align: right;
 }
